@@ -1,0 +1,239 @@
+
+#healthValueHolder {
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 780px;
+    margin-right: 0;
+    margin-bottom: 125px;
+    padding: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 8px;
+}
+#timerIcon {
+    display: none;
+}
+#bottomLeftHolder {
+    display: none;
+}
+#timerDisplay {
+    text-align: fixed;
+    padding: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#ammoDisplay {
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 160px;
+    margin-right: 780px;
+    padding: 0;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-bottom: 17px;
+}
+.weapKey {
+    display: none;
+}
+#weapDisplay {
+    position: absolute;
+    z-index: 1;
+    right: 20px;
+    bottom: 0;
+}
+#healthValue {
+    font-size: 46px;
+    text-shadow: 0 0 1px #000, 0 0 3px #000, 0 0 5px #000, 0 0 7px #000;
+    text-align: center;
+    
+}
+#maxHP {
+    font-size: 16px;
+    text-shadow: 0 0 1px #000, 0 0 3px #000, 0 0 5px #000, 0 0 7px #000;
+    margin-left: -13px;
+   
+}
+#challIcon {
+    display: none;
+}
+#ammoVal {
+    font-size: 46px;
+    text-shadow: 0 0 1px #000, 0 0 3px #000, 0 0 5px #000, 0 0 7px #000;
+
+}
+#ammoMax {
+    font-size: 16px;
+    text-shadow: 0 0 1px #000, 0 0 3px #000, 0 0 5px #000, 0 0 7px #000;
+    margin-left: -6px;
+    
+}
+#ammoIcon {
+    display: none;
+}
+#reloadMsg {
+    position: absolute;
+    margin-right: -50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 45%;
+    font-size: 14px;
+    line-height: 0;
+    padding-left: 0;
+    padding-right: 0;
+    color: #eb5656;
+    text-shadow: 0 0 1px #000, 0 0 3px #000;
+    z-index: 2 !important;
+}
+#healthBar {
+    display: inline-block;
+    z-index: 3;
+    height: 14px;
+    transform: translate(780px, -140px);
+}
+.healthBarSeg {
+    width: 20px;
+    display: inline-block;
+    border-radius: 0;
+    margin-right: 4px;
+    margin-top: -9px;
+    margin-bottom: 9px;
+    box-shadow: 0 0 3px red;
+    height: 14px;
+    background-color: red;
+}
+.hpBSeg {
+    height: 14px;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    background-color: none;
+    box-shadow: 0 0 3px #00d2ff;
+}
+#hudClassIcon {
+    display: none;
+}
+#voiceDisplay {
+    display: none;
+}
+#chatHolder {
+    bottom: 20px !important;
+}
+#chatInput {
+    opacity: 0;
+    height: 0;
+    padding: 0;
+    font-size: 0;
+}
+#chatInput:focus {
+    opacity: 1;
+    padding: 5px;
+    height: unset;
+    font-size: 18px;
+}
+#uiBase.onMenu #chatInput {
+    opacity: 1;
+    padding: 5px;
+    height: unset;
+    font-size: 18px;
+}
+.menuItem {
+    background: rgba(0, 0, 0, 0.5);
+}
+.verticalSeparator {
+    opacity: 0
+}
+
+
+
+
+
+
+
+
+#recticleImg{height:100%;width:auto!important}
+
+
+.black {
+    background-color: rgba(0, 0, 0, 0);
+    
+ 
+}
+.topBox {
+  
+    position: absolute;
+    top: 0 !important ;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-mask-image: url(https://cdn.discordapp.com/attachments/720463824393863180/728505965225181184/clipping.png);
+    -webkit-mask-position: center;
+    -webkit-mask-size: auto 100%;
+    backdrop-filter: blur(15px);
+
+}
+
+.bottomBox {display: none !important 
+   
+}
+
+
+.leftBox {display: none !important }
+
+
+.rightBox {display: none !important}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#merchImg {
+    display: none !important;
+}
+#aContainer {
+    display: none !important;
+}
+#endAContainer {
+    display: none !important;
+}
+#streamContainer {
+    display: none !important;
+}
+#claimImg {
+    -webkit-animation: none !important;
+}
+#pre-content-container {
+    transform: scale(0.25) !important;
+}
+.discordSocial {
+    display: none !important;
+}
+.downloadClient {
+    display: none !important;
+}
+.redditSocial {
+    display: none !important;
+}
+.twitterSocial {
+    display: none !important;
+}
+
