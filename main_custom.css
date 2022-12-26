@@ -1,4 +1,3 @@
-
 #healthValueHolder {
     background-color: rgba(0, 0, 0, 0);
     margin-left: 780px;
@@ -44,13 +43,11 @@
     font-size: 46px;
     text-shadow: 0 0 1px #000, 0 0 3px #000, 0 0 5px #000, 0 0 7px #000;
     text-align: center;
-    
 }
 #maxHP {
     font-size: 16px;
     text-shadow: 0 0 1px #000, 0 0 3px #000, 0 0 5px #000, 0 0 7px #000;
     margin-left: -13px;
-   
 }
 #challIcon {
     display: none;
@@ -58,13 +55,11 @@
 #ammoVal {
     font-size: 46px;
     text-shadow: 0 0 1px #000, 0 0 3px #000, 0 0 5px #000, 0 0 7px #000;
-
 }
 #ammoMax {
     font-size: 16px;
     text-shadow: 0 0 1px #000, 0 0 3px #000, 0 0 5px #000, 0 0 7px #000;
     margin-left: -6px;
-    
 }
 #ammoIcon {
     display: none;
@@ -138,102 +133,3 @@
 .menuItem {
     background: rgba(0, 0, 0, 0.5);
 }
-.verticalSeparator {
-    opacity: 0
-}
-
-
-
-
-
-
-
-
-#recticleImg{height:100%;width:auto!important}
-
-
-.black {
-    background-color: rgba(0, 0, 0, 0);
-    
- 
-}
-.topBox {
-  
-    position: absolute;
-    top: 0 !important ;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    -webkit-mask-image: url(https://cdn.discordapp.com/attachments/720463824393863180/728505965225181184/clipping.png);
-    -webkit-mask-position: center;
-    -webkit-mask-size: auto 100%;
-    backdrop-filter: blur(15px);
-
-}
-
-.bottomBox {display: none !important 
-   
-}
-
-
-.leftBox {display: none !important }
-
-
-.rightBox {display: none !important}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#merchImg {
-    display: none !important;
-}
-#aContainer {
-    display: none !important;
-}
-#endAContainer {
-    display: none !important;
-}
-#streamContainer {
-    display: none !important;
-}
-#claimImg {
-    -webkit-animation: none !important;
-}
-#pre-content-container {
-    transform: scale(0.25) !important;
-}
-.discordSocial {
-    display: none !important;
-}
-.downloadClient {
-    display: none !important;
-}
-.redditSocial {
-    display: none !important;
-}
-.twitterSocial {
-    display: none !important;
-}
-
